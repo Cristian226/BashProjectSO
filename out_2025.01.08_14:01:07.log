@@ -1,0 +1,109 @@
+===================================
+1) Monitorizare resurse
+2) Gestionare procese
+3) Monitorizare procese consumatoare de resurse
+4) Configurare resurse
+5) Terminare procese (soft/hard kill)
+6) Monitorizare periodica
+7) Iesire
+===================================
+Alegeti o optiune: Resurse RAM:
+              total        used        free      shared  buff/cache   available
+Mem:          7.7Gi       494Mi       6.9Gi       3.0Mi       256Mi       6.9Gi
+Swap:         2.0Gi          0B       2.0Gi
+Spatiu pe disc:
+Filesystem      Size  Used Avail Use% Mounted on
+none            3.9G     0  3.9G   0% /usr/lib/modules/5.15.167.4-microsoft-standard-WSL2
+none            3.9G  4.0K  3.9G   1% /mnt/wsl
+drivers         476G  318G  159G  67% /usr/lib/wsl/drivers
+/dev/sdc        251G  4.0G  235G   2% /
+none            3.9G   76K  3.9G   1% /mnt/wslg
+none            3.9G     0  3.9G   0% /usr/lib/wsl/lib
+rootfs          3.9G  2.2M  3.9G   1% /init
+none            3.9G     0  3.9G   0% /dev
+none            3.9G  876K  3.9G   1% /run
+none            3.9G     0  3.9G   0% /run/lock
+none            3.9G     0  3.9G   0% /run/shm
+tmpfs           3.9G     0  3.9G   0% /sys/fs/cgroup
+none            3.9G   76K  3.9G   1% /mnt/wslg/versions.txt
+none            3.9G   76K  3.9G   1% /mnt/wslg/doc
+C:\             476G  318G  159G  67% /mnt/c
+D:\             932G  570G  363G  62% /mnt/d
+snapfuse         64M   64M     0 100% /snap/core20/2434
+snapfuse         64M   64M     0 100% /snap/core20/1891
+snapfuse         92M   92M     0 100% /snap/lxd/24061
+snapfuse         92M   92M     0 100% /snap/lxd/29619
+snapfuse         54M   54M     0 100% /snap/snapd/19122
+snapfuse         45M   45M     0 100% /snap/snapd/23258
+Utilizare CPU:
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni,100.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+Utilizare retea:
+Inter-|   Receive                                                |  Transmit
+ face |bytes    packets errs drop fifo frame compressed multicast|bytes    packets errs drop fifo colls carrier compressed
+    lo:    3889      44    0    0    0     0          0         0     3889      44    0    0    0     0       0          0
+  eth0:   60473     294    0    0    0     0          0        19   345113     308    0    0    0     0       0          0
+docker0:       0       0    0    0    0     0          0         0        0       0    0    0    0     0       0          0
+Log salvat in monitorizare_2025.01.08_14:01:07.log
+===================================
+1) Monitorizare resurse
+2) Gestionare procese
+3) Monitorizare procese consumatoare de resurse
+4) Configurare resurse
+5) Terminare procese (soft/hard kill)
+6) Monitorizare periodica
+7) Iesire
+===================================
+Alegeti o optiune: === Gestionare Procese ===
+    PID    PPID S COMMAND
+      1       0 S systemd
+      2       1 S init-systemd(Ub
+      7       2 S init
+     68       1 S systemd-journal
+     89       1 S systemd-udevd
+     95       1 S systemd-network
+    278       1 S snapfuse
+    281       1 S snapfuse
+    283       1 S snapfuse
+    286       1 S snapfuse
+    288       1 S snapfuse
+    289       1 S snapfuse
+    297       1 S systemd-resolve
+    301       1 S accounts-daemon
+    302       1 S dbus-daemon
+    306       1 S networkd-dispat
+    308       1 S polkitd
+    309       1 S rsyslogd
+    311       1 S snapd
+    314       1 S systemd-logind
+    315       1 S udisksd
+    338       1 S ModemManager
+    350       1 S cron
+    365       1 S containerd
+    370       1 S atd
+    390       1 S unattended-upgr
+    392       1 S agetty
+    397       1 S agetty
+    419       1 S dockerd
+    734       2 S SessionLeader
+    735     734 S Relay(736)
+    736     735 S bash
+    737       2 S login
+    880       1 S systemd
+    881     880 S (sd-pam)
+    886     737 S bash
+   1100     736 S script.sh
+   1103    1100 S script.sh
+   1104    1103 S tee
+   1125    1100 R ps
+   1126    1100 D tee
+Alegeti o operatie (start/suspend/wait/background/foreground): Operatie invalida!
+===================================
+1) Monitorizare resurse
+2) Gestionare procese
+3) Monitorizare procese consumatoare de resurse
+4) Configurare resurse
+5) Terminare procese (soft/hard kill)
+6) Monitorizare periodica
+7) Iesire
+===================================
+Alegeti o optiune: 
