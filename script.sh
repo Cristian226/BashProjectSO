@@ -10,11 +10,6 @@ exec > >(tee -a "$OUT_LOG") 2>&1
 
 # Setarea Git pentru salvarea logurilor in cloud
 function save_to_git() {
-    if [ ! -d ".git" ]; then
-        echo "Depozitul Git nu este configurat. Configurăm acum..."
-        git init
-        git remote add origin https://github.com/Cristian226/BashProjectSO.git
-    fi
     git add "$OUT_LOG"
     git commit -m "Actualizare log: $(date +%Y.%m.%d_%H:%M:%S)"
     git push origin main
