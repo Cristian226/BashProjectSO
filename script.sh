@@ -201,6 +201,7 @@ while true; do
         5) terminare_procese ;;
         6) porneste_opreste_monitorizare_periodica ;;
         7) save_to_git
+            kill "$PERIODIC_PID" 2>/dev/null
            break ;;
         *) echo "Optiune invalida." ;;
     esac
