@@ -181,4 +181,8 @@ Log salvat in monitorizare_2025.01.08_13:45:49.log
 6) Monitorizare periodica
 7) Iesire
 ===================================
-Alegeti o optiune: 
+Alegeti o optiune: [master (root-commit) 60ab7ea] Actualizare log: 2025.01.08_13:45:52
+ 1 file changed, 184 insertions(+)
+ create mode 100644 out.log
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/Cristian226/BashProjectSO.git'
