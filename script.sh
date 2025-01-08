@@ -12,10 +12,10 @@ exec > >(tee -a "$OUT_LOG") 2>&1
 function save_to_git() {
     git add "$OUT_LOG"
     git commit -m "Actualizare log: $(date +%Y.%m.%d_%H:%M:%S)"
-    git push origin main
+    git push
 }
 
-# Verificam dacă fisierul log exista, daca e nevoie il cream
+# Verificam daca fisierul log exista, daca e nevoie il cream
 if [ ! -f "$OUT_LOG" ]; then
     touch "$OUT_LOG"
 fi
