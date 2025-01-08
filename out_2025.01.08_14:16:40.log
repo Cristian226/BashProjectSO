@@ -1,0 +1,281 @@
+===================================
+1) Monitorizare resurse
+2) Gestionare procese
+3) Monitorizare procese consumatoare de resurse
+4) Configurare resurse
+5) Terminare procese (soft/hard kill)
+6) Monitorizare periodica
+7) Iesire
+===================================
+Alegeti o optiune: === Configurare Resurse ===
+1) Schimbare vm.swappiness
+2) Schimbare interval actualizare monitorizare
+Alegeti o optiune: Introduceti noul interval (in secunde): Interval setat la 60 secunde.
+===================================
+1) Monitorizare resurse
+2) Gestionare procese
+3) Monitorizare procese consumatoare de resurse
+4) Configurare resurse
+5) Terminare procese (soft/hard kill)
+6) Monitorizare periodica
+7) Iesire
+===================================
+Alegeti o optiune: Resurse RAM:
+              total        used        free      shared  buff/cache   available
+Mem:          7.7Gi       503Mi       6.9Gi       3.0Mi       260Mi       6.9Gi
+Swap:         2.0Gi          0B       2.0Gi
+Spatiu pe disc:
+Filesystem      Size  Used Avail Use% Mounted on
+none            3.9G     0  3.9G   0% /usr/lib/modules/5.15.167.4-microsoft-standard-WSL2
+none            3.9G  4.0K  3.9G   1% /mnt/wsl
+drivers         476G  319G  158G  67% /usr/lib/wsl/drivers
+/dev/sdc        251G  4.0G  235G   2% /
+none            3.9G   76K  3.9G   1% /mnt/wslg
+none            3.9G     0  3.9G   0% /usr/lib/wsl/lib
+rootfs          3.9G  2.2M  3.9G   1% /init
+none            3.9G     0  3.9G   0% /dev
+none            3.9G  880K  3.9G   1% /run
+none            3.9G     0  3.9G   0% /run/lock
+none            3.9G     0  3.9G   0% /run/shm
+tmpfs           3.9G     0  3.9G   0% /sys/fs/cgroup
+none            3.9G   76K  3.9G   1% /mnt/wslg/versions.txt
+none            3.9G   76K  3.9G   1% /mnt/wslg/doc
+C:\             476G  319G  158G  67% /mnt/c
+D:\             932G  570G  363G  62% /mnt/d
+snapfuse         64M   64M     0 100% /snap/core20/2434
+snapfuse         64M   64M     0 100% /snap/core20/1891
+snapfuse         92M   92M     0 100% /snap/lxd/24061
+snapfuse         92M   92M     0 100% /snap/lxd/29619
+snapfuse         54M   54M     0 100% /snap/snapd/19122
+snapfuse         45M   45M     0 100% /snap/snapd/23258
+Utilizare CPU:
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni,100.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+Utilizare retea:
+Inter-|   Receive                                                |  Transmit
+ face |bytes    packets errs drop fifo frame compressed multicast|bytes    packets errs drop fifo colls carrier compressed
+    lo:   10105     104    0    0    0     0          0         0    10105     104    0    0    0     0       0          0
+  eth0: 112736481   76938    0    0    0     0          0        42  2257752   22752    0    0    0     0       0          0
+docker0:       0       0    0    0    0     0          0         0        0       0    0    0    0     0       0          0
+Log salvat in monitorizare_2025.01.08_14:16:40.log
+Resurse RAM:
+              total        used        free      shared  buff/cache   available
+Mem:          7.7Gi       503Mi       6.9Gi       3.0Mi       260Mi       6.9Gi
+Swap:         2.0Gi          0B       2.0Gi
+Spatiu pe disc:
+Filesystem      Size  Used Avail Use% Mounted on
+none            3.9G     0  3.9G   0% /usr/lib/modules/5.15.167.4-microsoft-standard-WSL2
+none            3.9G  4.0K  3.9G   1% /mnt/wsl
+drivers         476G  319G  158G  67% /usr/lib/wsl/drivers
+/dev/sdc        251G  4.0G  235G   2% /
+none            3.9G   76K  3.9G   1% /mnt/wslg
+none            3.9G     0  3.9G   0% /usr/lib/wsl/lib
+rootfs          3.9G  2.2M  3.9G   1% /init
+none            3.9G     0  3.9G   0% /dev
+none            3.9G  880K  3.9G   1% /run
+none            3.9G     0  3.9G   0% /run/lock
+none            3.9G     0  3.9G   0% /run/shm
+tmpfs           3.9G     0  3.9G   0% /sys/fs/cgroup
+none            3.9G   76K  3.9G   1% /mnt/wslg/versions.txt
+none            3.9G   76K  3.9G   1% /mnt/wslg/doc
+C:\             476G  319G  158G  67% /mnt/c
+D:\             932G  570G  363G  62% /mnt/d
+snapfuse         64M   64M     0 100% /snap/core20/2434
+snapfuse         64M   64M     0 100% /snap/core20/1891
+snapfuse         92M   92M     0 100% /snap/lxd/24061
+snapfuse         92M   92M     0 100% /snap/lxd/29619
+snapfuse         54M   54M     0 100% /snap/snapd/19122
+snapfuse         45M   45M     0 100% /snap/snapd/23258
+Utilizare CPU:
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni,100.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+Utilizare retea:
+Inter-|   Receive                                                |  Transmit
+ face |bytes    packets errs drop fifo frame compressed multicast|bytes    packets errs drop fifo colls carrier compressed
+    lo:   10105     104    0    0    0     0          0         0    10105     104    0    0    0     0       0          0
+  eth0: 112736481   76938    0    0    0     0          0        42  2257752   22752    0    0    0     0       0          0
+docker0:       0       0    0    0    0     0          0         0        0       0    0    0    0     0       0          0
+Log salvat in monitorizare_2025.01.08_14:16:40.log
+Resurse RAM:
+              total        used        free      shared  buff/cache   available
+Mem:          7.7Gi       503Mi       6.9Gi       3.0Mi       260Mi       6.9Gi
+Swap:         2.0Gi          0B       2.0Gi
+Spatiu pe disc:
+Filesystem      Size  Used Avail Use% Mounted on
+none            3.9G     0  3.9G   0% /usr/lib/modules/5.15.167.4-microsoft-standard-WSL2
+none            3.9G  4.0K  3.9G   1% /mnt/wsl
+drivers         476G  319G  158G  67% /usr/lib/wsl/drivers
+/dev/sdc        251G  4.0G  235G   2% /
+none            3.9G   76K  3.9G   1% /mnt/wslg
+none            3.9G     0  3.9G   0% /usr/lib/wsl/lib
+rootfs          3.9G  2.2M  3.9G   1% /init
+none            3.9G     0  3.9G   0% /dev
+none            3.9G  880K  3.9G   1% /run
+none            3.9G     0  3.9G   0% /run/lock
+none            3.9G     0  3.9G   0% /run/shm
+tmpfs           3.9G     0  3.9G   0% /sys/fs/cgroup
+none            3.9G   76K  3.9G   1% /mnt/wslg/versions.txt
+none            3.9G   76K  3.9G   1% /mnt/wslg/doc
+C:\             476G  319G  158G  67% /mnt/c
+D:\             932G  570G  363G  62% /mnt/d
+snapfuse         64M   64M     0 100% /snap/core20/2434
+snapfuse         64M   64M     0 100% /snap/core20/1891
+snapfuse         92M   92M     0 100% /snap/lxd/24061
+snapfuse         92M   92M     0 100% /snap/lxd/29619
+snapfuse         54M   54M     0 100% /snap/snapd/19122
+snapfuse         45M   45M     0 100% /snap/snapd/23258
+Utilizare CPU:
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni,100.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+Utilizare retea:
+Inter-|   Receive                                                |  Transmit
+ face |bytes    packets errs drop fifo frame compressed multicast|bytes    packets errs drop fifo colls carrier compressed
+    lo:   10105     104    0    0    0     0          0         0    10105     104    0    0    0     0       0          0
+  eth0: 112736481   76938    0    0    0     0          0        42  2257752   22752    0    0    0     0       0          0
+docker0:       0       0    0    0    0     0          0         0        0       0    0    0    0     0       0          0
+Log salvat in monitorizare_2025.01.08_14:16:40.log
+Resurse RAM:
+              total        used        free      shared  buff/cache   available
+Mem:          7.7Gi       502Mi       6.9Gi       3.0Mi       260Mi       6.9Gi
+Swap:         2.0Gi          0B       2.0Gi
+Spatiu pe disc:
+Filesystem      Size  Used Avail Use% Mounted on
+none            3.9G     0  3.9G   0% /usr/lib/modules/5.15.167.4-microsoft-standard-WSL2
+none            3.9G  4.0K  3.9G   1% /mnt/wsl
+drivers         476G  319G  158G  67% /usr/lib/wsl/drivers
+/dev/sdc        251G  4.0G  235G   2% /
+none            3.9G   76K  3.9G   1% /mnt/wslg
+none            3.9G     0  3.9G   0% /usr/lib/wsl/lib
+rootfs          3.9G  2.2M  3.9G   1% /init
+none            3.9G     0  3.9G   0% /dev
+none            3.9G  880K  3.9G   1% /run
+none            3.9G     0  3.9G   0% /run/lock
+none            3.9G     0  3.9G   0% /run/shm
+tmpfs           3.9G     0  3.9G   0% /sys/fs/cgroup
+none            3.9G   76K  3.9G   1% /mnt/wslg/versions.txt
+none            3.9G   76K  3.9G   1% /mnt/wslg/doc
+C:\             476G  319G  158G  67% /mnt/c
+D:\             932G  570G  363G  62% /mnt/d
+snapfuse         64M   64M     0 100% /snap/core20/2434
+snapfuse         64M   64M     0 100% /snap/core20/1891
+snapfuse         92M   92M     0 100% /snap/lxd/24061
+snapfuse         92M   92M     0 100% /snap/lxd/29619
+snapfuse         54M   54M     0 100% /snap/snapd/19122
+snapfuse         45M   45M     0 100% /snap/snapd/23258
+Utilizare CPU:
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni,100.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+Utilizare retea:
+Inter-|   Receive                                                |  Transmit
+ face |bytes    packets errs drop fifo frame compressed multicast|bytes    packets errs drop fifo colls carrier compressed
+    lo:   10105     104    0    0    0     0          0         0    10105     104    0    0    0     0       0          0
+  eth0: 112736481   76938    0    0    0     0          0        42  2257752   22752    0    0    0     0       0          0
+docker0:       0       0    0    0    0     0          0         0        0       0    0    0    0     0       0          0
+Log salvat in monitorizare_2025.01.08_14:16:40.log
+Resurse RAM:
+              total        used        free      shared  buff/cache   available
+Mem:          7.7Gi       503Mi       6.9Gi       3.0Mi       260Mi       6.9Gi
+Swap:         2.0Gi          0B       2.0Gi
+Spatiu pe disc:
+Filesystem      Size  Used Avail Use% Mounted on
+none            3.9G     0  3.9G   0% /usr/lib/modules/5.15.167.4-microsoft-standard-WSL2
+none            3.9G  4.0K  3.9G   1% /mnt/wsl
+drivers         476G  319G  158G  67% /usr/lib/wsl/drivers
+/dev/sdc        251G  4.0G  235G   2% /
+none            3.9G   76K  3.9G   1% /mnt/wslg
+none            3.9G     0  3.9G   0% /usr/lib/wsl/lib
+rootfs          3.9G  2.2M  3.9G   1% /init
+none            3.9G     0  3.9G   0% /dev
+none            3.9G  880K  3.9G   1% /run
+none            3.9G     0  3.9G   0% /run/lock
+none            3.9G     0  3.9G   0% /run/shm
+tmpfs           3.9G     0  3.9G   0% /sys/fs/cgroup
+none            3.9G   76K  3.9G   1% /mnt/wslg/versions.txt
+none            3.9G   76K  3.9G   1% /mnt/wslg/doc
+C:\             476G  319G  158G  67% /mnt/c
+D:\             932G  570G  363G  62% /mnt/d
+snapfuse         64M   64M     0 100% /snap/core20/2434
+snapfuse         64M   64M     0 100% /snap/core20/1891
+snapfuse         92M   92M     0 100% /snap/lxd/24061
+snapfuse         92M   92M     0 100% /snap/lxd/29619
+snapfuse         54M   54M     0 100% /snap/snapd/19122
+snapfuse         45M   45M     0 100% /snap/snapd/23258
+Utilizare CPU:
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni,100.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+Utilizare retea:
+Inter-|   Receive                                                |  Transmit
+ face |bytes    packets errs drop fifo frame compressed multicast|bytes    packets errs drop fifo colls carrier compressed
+    lo:   10105     104    0    0    0     0          0         0    10105     104    0    0    0     0       0          0
+  eth0: 112736481   76938    0    0    0     0          0        42  2257752   22752    0    0    0     0       0          0
+docker0:       0       0    0    0    0     0          0         0        0       0    0    0    0     0       0          0
+Log salvat in monitorizare_2025.01.08_14:16:40.log
+Resurse RAM:
+              total        used        free      shared  buff/cache   available
+Mem:          7.7Gi       503Mi       6.9Gi       3.0Mi       260Mi       6.9Gi
+Swap:         2.0Gi          0B       2.0Gi
+Spatiu pe disc:
+Filesystem      Size  Used Avail Use% Mounted on
+none            3.9G     0  3.9G   0% /usr/lib/modules/5.15.167.4-microsoft-standard-WSL2
+none            3.9G  4.0K  3.9G   1% /mnt/wsl
+drivers         476G  319G  158G  67% /usr/lib/wsl/drivers
+/dev/sdc        251G  4.0G  235G   2% /
+none            3.9G   76K  3.9G   1% /mnt/wslg
+none            3.9G     0  3.9G   0% /usr/lib/wsl/lib
+rootfs          3.9G  2.2M  3.9G   1% /init
+none            3.9G     0  3.9G   0% /dev
+none            3.9G  880K  3.9G   1% /run
+none            3.9G     0  3.9G   0% /run/lock
+none            3.9G     0  3.9G   0% /run/shm
+tmpfs           3.9G     0  3.9G   0% /sys/fs/cgroup
+none            3.9G   76K  3.9G   1% /mnt/wslg/versions.txt
+none            3.9G   76K  3.9G   1% /mnt/wslg/doc
+C:\             476G  319G  158G  67% /mnt/c
+D:\             932G  570G  363G  62% /mnt/d
+snapfuse         64M   64M     0 100% /snap/core20/2434
+snapfuse         64M   64M     0 100% /snap/core20/1891
+snapfuse         92M   92M     0 100% /snap/lxd/24061
+snapfuse         92M   92M     0 100% /snap/lxd/29619
+snapfuse         54M   54M     0 100% /snap/snapd/19122
+snapfuse         45M   45M     0 100% /snap/snapd/23258
+Utilizare CPU:
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni,100.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+Utilizare retea:
+Inter-|   Receive                                                |  Transmit
+ face |bytes    packets errs drop fifo frame compressed multicast|bytes    packets errs drop fifo colls carrier compressed
+    lo:   10105     104    0    0    0     0          0         0    10105     104    0    0    0     0       0          0
+  eth0: 112736481   76938    0    0    0     0          0        42  2257752   22752    0    0    0     0       0          0
+docker0:       0       0    0    0    0     0          0         0        0       0    0    0    0     0       0          0
+Log salvat in monitorizare_2025.01.08_14:16:40.log
+Resurse RAM:
+              total        used        free      shared  buff/cache   available
+Mem:          7.7Gi       504Mi       6.9Gi       3.0Mi       260Mi       6.9Gi
+Swap:         2.0Gi          0B       2.0Gi
+Spatiu pe disc:
+Filesystem      Size  Used Avail Use% Mounted on
+none            3.9G     0  3.9G   0% /usr/lib/modules/5.15.167.4-microsoft-standard-WSL2
+none            3.9G  4.0K  3.9G   1% /mnt/wsl
+drivers         476G  319G  158G  67% /usr/lib/wsl/drivers
+/dev/sdc        251G  4.0G  235G   2% /
+none            3.9G   76K  3.9G   1% /mnt/wslg
+none            3.9G     0  3.9G   0% /usr/lib/wsl/lib
+rootfs          3.9G  2.2M  3.9G   1% /init
+none            3.9G     0  3.9G   0% /dev
+none            3.9G  880K  3.9G   1% /run
+none            3.9G     0  3.9G   0% /run/lock
+none            3.9G     0  3.9G   0% /run/shm
+tmpfs           3.9G     0  3.9G   0% /sys/fs/cgroup
+none            3.9G   76K  3.9G   1% /mnt/wslg/versions.txt
+none            3.9G   76K  3.9G   1% /mnt/wslg/doc
+C:\             476G  319G  158G  67% /mnt/c
+D:\             932G  570G  363G  62% /mnt/d
+snapfuse         64M   64M     0 100% /snap/core20/2434
+snapfuse         64M   64M     0 100% /snap/core20/1891
+snapfuse         92M   92M     0 100% /snap/lxd/24061
+snapfuse         92M   92M     0 100% /snap/lxd/29619
+snapfuse         54M   54M     0 100% /snap/snapd/19122
+snapfuse         45M   45M     0 100% /snap/snapd/23258
+Utilizare CPU:
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni,100.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+Utilizare retea:
+Inter-|   Receive                                                |  Transmit
+ face |bytes    packets errs drop fifo frame compressed multicast|bytes    packets errs drop fifo colls carrier compressed
+    lo:   10105     104    0    0    0     0          0         0    10105     104    0    0    0     0       0          0
+  eth0: 112736481   76938    0    0    0     0          0        42  2257752   22752    0    0    0     0       0          0
+docker0:       0       0    0    0    0     0          0         0        0       0    0    0    0     0       0          0
+Log salvat in monitorizare_2025.01.08_14:16:40.log
